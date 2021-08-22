@@ -1,0 +1,26 @@
+@media screen and (max-width: 1020px){
+   .card{
+       width: 60%;
+       overflow: scroll;
+   }
+}
+
+@media screen and (max-width: 530px){
+    .card{
+        margin-top: 5rem;
+        width: 90%;
+        overflow: scroll;
+    }
+ }
+
+ @media screen and (max-width: 360px){
+    .card{
+        margin-top: 5rem;
+        width: 90%;
+        overflow: scroll;
+    }
+
+    .music-img{
+        display: none;
+    }
+ }

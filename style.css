@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+}
+
+.main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.card{
+    width: 35%;
+    height: 80%;
+    margin-top: 6%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px 0px hsl(279deg 49% 84%);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.illustration{
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.summary{
+    width: 80%;
+}
+
+.summary p{
+    color: #494b52;
+}
+
+
+.payment{
+    min-width: 90%;
+    height: 5rem;
+    margin: 2rem 0;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.annual-plan{
+    width: 100%;
+    display: inline-flex;
+    height: 3rem;
+}
+
+.annual-plan-content h3, h4{
+    margin: 0.4rem 1rem;
+}
+
+.annual-plan-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-left: 0.7rem;
+}
+
+
+.annual-plan-content h4{
+    color: rgb(141, 141, 141);
+    font-weight: 500;
+}
+
+.change a{
+    margin-top: 0.8rem;
+    color: hsl(245, 75%, 52%);
+    float: right;
+}
+
+.change a:hover{
+    transition: ease 0.2s;
+    color: hsl(245, 54%, 58%);
+}
+
+#proceed{
+    color: hsl(225, 100%, 94%);
+    border-radius: 1rem;
+    width: 90%;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 10px 10px 0px rgba(92, 92, 92, 0.507);
+}
+
+#proceed:hover{
+    transition: ease 0.2s;
+    background-color: hsl(245, 54%, 58%);
+}
+
+
+.buttons a{
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 800;
+    color: hsl(0, 0%, 59%);
+}
+
+.buttons{
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.attribution{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
